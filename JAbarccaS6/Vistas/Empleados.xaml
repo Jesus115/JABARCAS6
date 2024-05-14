@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JAbarccaS6.Vistas.Empleados"
+             Title="Empleados">
+    <VerticalStackLayout>
+        <Label 
+            Text="Consumo de servicio web - GET"
+            FontSize="20"
+            HorizontalTextAlignment="Center"/>
+        <ListView x:Name="lsEmpleados">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Grid x:Name="gridEmployes">
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+
+                                </Grid.RowDefinitions>
+                                <Label Grid.Column="0" x:Name="lblNombre" Text="{Binding name}"/>
+                                <Label x:Name="lblApellido" Text="{Binding apellido}"/>
+                            </Grid>
+                            <Grid x:Name="gridEmpleados">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" /> <ColumnDefinition Width="*" />       </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"  /> </Grid.RowDefinitions>
+                            </Grid>
+                          
+                            
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

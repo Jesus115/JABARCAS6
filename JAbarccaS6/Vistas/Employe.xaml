@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JAbarccaS6.Vistas.Employe"
+             Title="Employe">
+    <VerticalStackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Padding="20" Spacing="25">
+        <Label
+            Text="Consumo de servicio web - GET"
+            FontSize="20"
+            HorizontalTextAlignment="Center" />
+        
+        <Grid x:Name="grdEmployes">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto" /> <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+             <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"  />
+             </Grid.RowDefinitions>
+            <Label Text="Codigo" Grid.Column="0" Grid.Row="0"/>
+            <Label Text="Nombre" Grid.Column="1" Grid.Row="0"/>
+            <Label Text="Apellido" Grid.Column="2" Grid.Row="0"/>
+            <Label Text="Edad" Grid.Column="3" Grid.Row="0"/>
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
