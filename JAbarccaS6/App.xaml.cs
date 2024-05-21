@@ -8,7 +8,7 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new Employe();
+		MainPage = new NavigationPage( new Employe());
 	}
 }
 

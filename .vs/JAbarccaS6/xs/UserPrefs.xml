@@ -1,4 +1,47 @@
 ﻿<Properties StartupConfiguration="{B48E63BE-A223-4090-8980-EF2F67A6BF30}|Default">
-  <MonoDevelop.Ide.ItemProperties.JAbarccaS6 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JAbarccaS6/Vistas/Employe.xaml.cs">
+    <Files>
+      <File FileName="JAbarccaS6/MainPage.xaml.cs" />
+      <File FileName="JAbarccaS6/MainPage.xaml" />
+      <File FileName="JAbarccaS6/Vistas/Empleados.xaml" />
+      <File FileName="JAbarccaS6/Vistas/Empleados.xaml.cs" />
+      <File FileName="JAbarccaS6/Models/Empleado.cs" />
+      <File FileName="JAbarccaS6/Platforms/Android/AndroidManifest.xml" />
+      <File FileName="JAbarccaS6/App.xaml" />
+      <File FileName="JAbarccaS6/App.xaml.cs" />
+      <File FileName="JAbarccaS6/Vistas/Employe.xaml" Line="31" Column="27" />
+      <File FileName="JAbarccaS6/Vistas/Employe.xaml.cs" Line="42" Column="1" />
+      <File FileName="JAbarccaS6/Vistas/AgEmpleados.xaml" />
+      <File FileName="JAbarccaS6/Vistas/AgEmpleados.xaml.cs" Line="25" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JAbarccaS6" expanded="True">
+            <Node name="JAbarccaS6" expanded="True">
+              <Node name="Vistas" expanded="True">
+                <Node name="AgEmpleados.xaml" expanded="True" />
+                <Node name="Employe.xaml" expanded="True">
+                  <Node name="Employe.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.JAbarccaS6 PreferredExecutionTarget="Android.pixel_5_-_api_33" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jesus/Projects/JAbarccaS6/JAbarccaS6/Vistas/AgEmpleados.xaml.cs" relfile="JAbarccaS6/Vistas/AgEmpleados.xaml.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.95" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
